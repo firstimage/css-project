@@ -1,0 +1,31 @@
+/*
+ * this is for heading h1
+ */
+h1 {
+    font-size: 30px;
+    color: red;
+}
+
+/*
+ * this is for paragraph p
+ */
+p {
+    font-size: 24px;
+    /*color: blue;*/
+}
+
+#first {
+    font-size: 30px;
+}
+
+.para {
+    color: blue;
+}
+
+p#first {
+    color: green;
+}
+
+p.para {
+    text-align: center;
+}
