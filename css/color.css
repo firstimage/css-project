@@ -1,0 +1,80 @@
+h1 {
+    color: blue;
+}
+
+/*
+RGB = Red, Green and Blue
+
+R = 0 - 255
+G = 0 - 255
+B = 0 - 255
+
+where,
+0 = component is absent
+255 = it is present
+ */
+h2 {
+    color: rgb(255, 0, 0);
+}
+
+/*
+Hex value
+we have 16 numbers from 0 to 15
+where,
+we denote 0-9 using digit 0-9
+and we denote 10-15 using letters A-F/a-f
+
+so,
+10 (decimal) = A/a (hex)
+11 (decimal) = B/b (hex)
+12 (decimal) = C/c (hex)
+13 (decimal) = D/d (hex)
+14 (decimal) = E/e (hex)
+15 (decimal) = F/f (hex)
+
+syntax
+#RRGGBB
+
+RR = 00 - FF (hex) = (0 - 255) decimal
+GG = 00 - FF (hex) = (0 - 255) decimal
+BB = 00 - FF (hex) = (0 - 255) decimal
+
+shorthand notation
+#RRGGBB = #RGB
+
+#112233 = #123
+#bb99aa = #b9a
+#001122 = #012
+
+invalid
+#00ff12 = #0f12 (wrong)
+*/
+h3 {
+    color: #0F0;  /*#00FF00;*/
+}
+
+/*
+RGBA
+
+R = Red
+G = Green
+B = Blue
+A = Alpha (opacity)
+
+R = 0 - 255 (integer)
+G = 0 - 255 (integer)
+B = 0 - 255 (integer)
+A = 0 - 1   (decimal part)
+
+when A = 1 it means opacity = 100%
+and  A = 0 it means opacity = 0%
+
+syntax
+color : rgba(r, g, b, a);
+
+*/
+p {
+    font-size: 24px;
+    color : rgba(255, 0, 0, 1);
+}
+
