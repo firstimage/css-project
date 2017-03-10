@@ -1,0 +1,48 @@
+#sample-div1 {
+    padding: 15px;
+    background-color: lightyellow;
+}
+
+#sample-div2 {
+    border: 1px solid #111;
+    height: 120px;
+    background-image: url(/image/heart.png);
+}
+
+#sample-div3 {
+    border: 1px solid #111;
+    height: 120px;
+    background-image: url(/image/heart.png);
+    background-repeat: repeat-y;
+}
+
+#sample-div4 {
+    border: 1px solid #111;
+    height: 120px;
+    background-image: url(/image/heart.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#sample-div5 {
+    border: 1px solid #111;
+    height: 120px;
+    background-image: url(/image/heart.png);
+    background-repeat: no-repeat;
+    background-position: 10% 20%;
+}
+
+#sample-div6 {
+    border: 1px solid #111;
+    height: 600px;
+    background-image: url(/image/heart.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+#sample-div7 {
+    border: 1px solid #111;
+    height: 400px;
+    background: lightyellow url(/image/heart.png) scroll center center no-repeat;/*C I A P R*/
+}
