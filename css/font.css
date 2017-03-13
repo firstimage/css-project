@@ -1,0 +1,37 @@
+#sample-h1 {
+    font-size: 48px;
+    /*
+    font-size: 30px;
+    font-size: 500%;
+    */
+}
+
+#sample-h2 {
+    font-size: 36px;
+    font-family: "Lucida Grande", Helvatica, Arial;
+}
+
+#sample-h3 {
+    font-size: 60px;
+    font-style: italic;
+}
+
+.sample-h1 {
+    font-weight: normal;
+    /*
+    font-weight: 100;
+    font-weight: 900;
+    font-weight: lighter;
+    font-weight: bold;
+    font-weight: bolder;
+    */
+}
+
+.sample-h2 {
+    font-variant: small-caps;
+}
+
+.sample-h3 {
+    /* S V W Si/He Fa */
+    font: italic small-caps 300 48px/60px Arial;
+}
