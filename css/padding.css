@@ -1,0 +1,73 @@
+#sample-div1 p {
+    border: 1px solid #111;
+    padding: 20px;
+}
+
+#sample-div2 p {
+    border: 1px solid #111;
+    padding: 10%;
+}
+
+/*
+Padding
+
+padding-top : px/%;
+padding-right : px/%;
+padding-bottom : px/%;
+padding-left : px/%;
+*/
+
+#sample-p1 {
+    border: 1px solid #111;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+}
+
+/*
+Shorthand notation
+
+using padding property
+
+Top-Right-Bottom-Left
+padding: T R B L;   (px/%)
+
+Top-RightLeft-Bottom
+padding: T RL B;    (px/%)
+
+TopBottom-RightLeft
+padding: TB RL;     (px/%)
+
+TopRightBottomLeft
+padding: TRBL;      (px/%)
+
+*/
+#sample-p2 {
+    border: 1px solid #111;
+    padding: 10px 20px 30px 40px; /* T R B L */
+}
+
+#sample-p3 {
+    border: 1px solid #111;
+    padding: 10px 20px 30px; /* T RL B */
+}
+
+#sample-p4 {
+    border: 1px solid #111;
+    padding: 10px 20px; /* TB RL */
+}
+
+#sample-p5 {
+    border: 1px solid #111;
+    padding: 10px; /* TRBL */
+}
+
+#sample-div3 {
+    border: 1px solid #111;
+    padding: 10px;
+}
+
+#sample-div3 p {
+    padding: inherit;
+}
