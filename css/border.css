@@ -1,0 +1,153 @@
+#sample-div1 {
+    border: 1px solid #111;
+}
+
+/*
+border for an element
+consists of
+
+border-style
+border-width
+border-color
+
+*/
+
+
+/*
+border-style
+
+border-top-style
+border-right-style
+border-bottom-style
+border-left-style
+
+none (when we don't want any border style)
+solid
+dashed
+dotted
+double
+
+*/
+#sample-div2 {
+    border-top-style: solid;
+    border-right-style: dashed;
+    border-bottom-style: dotted;
+    border-left-style: double;
+}
+
+#sample-div3 {
+    border-style: solid dashed dotted double;  /*T R B L*/
+}
+
+#sample-div4 {
+    border-style: solid dashed dotted;
+    /* T RL B */
+}
+
+#sample-div5 {
+    border-style: solid dashed;
+    /* TB RL */
+}
+
+#sample-div6 {
+    border-style: dashed;
+    /* TRBL */
+}
+
+/*
+border-width
+
+border-top-width
+border-right-width
+border-bottom-width
+border-left-width
+
+value in px
+thin
+medium
+thick
+
+*/
+#sample-div7 {
+    border-style: solid dashed dotted double;
+    border-width: 20px;
+    /* TRBL */
+    
+    /*border-width: 5px 10px;*/
+    /* TB RL */
+    
+    /*border-width: 5px thin medium thick;*/
+    /* T R B L */
+    
+    /*
+    border-top-width: 5px;
+    border-right-width: thin;
+    border-bottom-width: medium;
+    border-left-width: thick;
+    */
+}
+
+/*
+border-color
+
+border-top-color
+border-right-color
+border-bottom-color
+border-left-color
+
+value
+name-color
+rgb()
+rgba()
+hex
+
+*/
+#sample-div8 {
+    border-style: solid dashed dotted double;
+    border-width: 20px;
+    
+    border-color: red;
+    /* TRBL */
+    
+    /*border-color: red blue;*/
+    /* TB RL */
+    
+    /*border-color: red green blue;*/
+    /* T RL B */
+    
+    /*border-color: red rgb(0, 255, 0) #0000FF rgba(100, 150, 200, 1);*/
+    /* T R B L */
+    
+    /*
+    border-top-color: red;
+    border-right-color: rgb(0, 255, 0);
+    border-bottom-color: #0000FF;
+    border-left-color: rgba(100, 150, 200, 1);
+    */
+}
+
+/*
+border
+
+border-top
+border-right
+border-bottom
+border-left
+
+
+value format
+width style color
+
+*/
+
+#sample-div9 {
+    
+    border: 10px solid blue;
+    
+    /*
+    border-top: 1px solid red;
+    border-right: 10px dotted blue;
+    border-bottom: 20px dashed green;
+    border-left: 30px double #999;
+    */
+}
