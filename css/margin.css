@@ -1,0 +1,56 @@
+/*
+margin property
+
+margin-top: (px/%)
+margin-right: (px/%)
+margin-bottom: (px/%)
+margin-left: (px/%)
+
+*/
+
+#sample-p1 {
+    border: 1px solid #111;
+    
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+
+/*
+shorthand notation
+
+margin: T R B L;    (px/%)
+
+margin: T RL B;     (px/%)
+
+margin: TB RL;      (px/%)
+
+margin: TRBL;       (px/%)
+
+*/
+#sample-p2 {
+    border: 1px solid #111;
+    
+    margin: 50px;
+    /* TRBL */
+    
+    /*margin: 50px 60px;*/
+    /* TB RL */
+    
+    /*margin: 50px 60px 70px;*/
+    /* T RL B */
+    
+    /*margin: 50px 60px 70px 80px;*/
+    /* T R B L */
+}
+
+#sample-div1 {
+    border: 1px solid #111;
+    margin: 30px;
+}
+
+#sample-p3 {
+    border: 1px solid #111;
+    margin: inherit;
+}
