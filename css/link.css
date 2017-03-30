@@ -1,0 +1,47 @@
+#sample-a1 {
+    font-size: 24px;
+    color: blue;
+}
+
+#sample-a2 {
+    font-size: 26px;
+    text-decoration: none;
+    color: green;
+}
+
+/*
+important states for an anchor <a>
+
+:link       this is for unvisited anchor
+
+:visited    this is for visited anchor
+
+:hover      this is when the mouse hovers
+            on top of the anchor
+
+:active     this is when the anchor is
+            being clicked
+
+*/
+
+#sample-a3 {
+    text-decoration: none;
+}
+
+#sample-a3:link {
+    color: red;
+}
+
+#sample-a3:visited {
+    color: blue;
+}
+
+#sample-a3:hover {
+    color: green;
+    font-size: 24px;
+}
+
+#sample-a3:active {
+    font-size: 50px;
+    text-decoration: underline;
+}
