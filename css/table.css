@@ -1,0 +1,88 @@
+/*
+#sample-table1 {
+    border: 1px solid #111;
+}
+
+#sample-table1 th {
+    border: 1px solid #111;
+}
+
+#sample-table1 td {
+    border: 1px solid #111;
+}
+*/
+
+#sample-table1,
+#sample-table1 th,
+#sample-table1 td {
+    border: 1px solid #111;
+}
+
+#sample-table2,
+#sample-table2 th,
+#sample-table2 td {
+    border: 1px solid #111;
+}
+
+#sample-table2 {
+    border-collapse: collapse;
+}
+
+/*
+this will be applied to any table
+having class .sample-table
+*/
+.sample-table,
+.sample-table th,
+.sample-table td {
+    border: 1px solid #111;
+}
+
+.sample-table {
+    border-collapse: collapse;
+}
+
+#sample-table3 th,
+#sample-table3 td {
+    padding: 15px;
+}
+
+#sample-table4 {
+    width: 100%;
+    /*width: 300px;*/
+}
+
+#sample-table5 {
+    height: 100px;
+}
+
+#sample-table6 {
+    width: 100%;
+}
+
+#sample-table6 th {
+    text-align: right;
+}
+
+#sample-table6 td {
+    text-align: center;
+}
+
+#sample-table7 th,
+#sample-table7 td {
+    height: 50px;
+}
+
+#sample-table7 {
+    width: 100%;
+}
+
+#sample-table7 th {
+    vertical-align: top;
+    /*vertical-align: bottom;*/
+    /*vertical-align: middle;*/
+}
+
+#sample-table7 td {
+    vertical-align: bottom;
+}
