@@ -1,0 +1,16 @@
+#sample-p2 {
+    visibility: hidden;
+    /*visibility: visible;*/
+}
+
+#sample-p4 {
+    display: none;
+}
+
+span {
+    display: block;
+}
+
+.sample-inline {
+    display: inline;
+}
