@@ -1,0 +1,88 @@
+/*
+outline property
+
+outline-style
+outline-width
+outline-color
+
+it is important to set the outline-style
+property before other outline properties.
+
+*/
+
+/*
+outline-style property
+
+we use this property to define the style of the
+outline
+
+values:
+none    when we don't want any outline
+hidden  this is for hidden outline
+solid
+dotted
+dashed
+double
+
+*/
+
+#sample-p1 {
+    outline-style: double;
+    /*outline-style: solid;*/
+    /*border: 5px solid red;*/
+}
+
+/*
+outline-width property
+
+we use this property to define the width of the
+outline
+
+values:
+px
+thin
+medium
+thick
+
+*/
+
+#sample-p2 {
+    outline-style: solid;
+    outline-width: thick;
+    /*outline-width: medium;*/
+    /*outline-width: thin;*/
+    /*outline-width: 5px;*/
+}
+
+/*
+outline-color property
+
+we use this property to define the color of the
+outline
+
+values:
+rgb()
+hex
+name-of-the-color
+*/
+
+#sample-p3 {
+    outline-style: dashed;
+    outline-width: 10px;
+    /*outline-color: blue;*/
+    /*outline-color: rgb(255, 0, 0);*/
+    outline-color: #00FF00;
+}
+
+/*
+outline property
+
+shorthand notation
+
+outline: width style color;
+
+*/
+
+#sample-p4 {
+    outline: 2px solid red;
+}
