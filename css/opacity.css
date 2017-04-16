@@ -1,0 +1,50 @@
+/*
+opacity property
+
+values:
+0-1
+
+where,
+1 = 100% opacity (opaque)
+0.5 = 50% opacity
+0 = 0% opacity (transparent)
+
+*/
+
+#sample-div1 {
+    opacity: 0.5;
+    padding: 15px;
+    background-color: green;
+    color: white;
+}
+
+#sample-div2 {
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.5);   /*black;*/
+    
+    color: white;
+}
+
+/*
+this is for older browsers
+like IE8 or IE6...
+
+filter: alpha(opacity=X);
+
+where,
+X = 0-100
+
+where,
+0 = 0% opacity (transparent)
+100 = 100% opacity (opaque)
+
+*/
+
+#sample-div3 {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    
+    padding: 15px;
+    background-color: blue;
+    color: white;
+}
