@@ -1,0 +1,89 @@
+#sample-div1 {
+    height: 100px;
+    width: 300px;
+    padding: 15px;
+    background-color: #eee;
+    margin-bottom: 100px;
+}
+
+/*
+overflow property
+
+we use this property to add scroll bar or clip
+the content inside an element.
+
+the element is a block element
+and it has its height specified
+
+values:
+
+visible     this is a default value. and it will
+            not clip the content
+
+auto        this will add scroll bar if the
+            content exceeds the element height
+
+hidden      this will hide the overflowing
+            content of the element
+
+scroll      this will add a scroll bar if
+            content exceeds the element
+
+*/
+
+#sample-div2 {
+    overflow: visible;
+    height: 100px;
+    width: 300px;
+    padding: 5px;
+    background-color: #eee;
+    margin-bottom: 100px;
+}
+
+#sample-div3 {
+    overflow: auto;
+    height: 100px;
+    width: 300px;
+    padding: 5px;
+    background-color: #eee;
+}
+
+#sample-div4 {
+    overflow: hidden;
+    height: 100px;
+    width: 300px;
+    padding: 5px;
+    background-color: #eee;
+}
+
+#sample-div5 {
+    overflow: scroll;
+    height: 100px;
+    width: 300px;
+    padding: 5px;
+    background-color: #eee;
+}
+
+/*
+overflow-x  we use this to add horizontal
+            scroll bar
+
+overflow-y  we use this to add vertical
+            scroll bar
+*/
+
+#sample-div6 {
+    overflow-y: scroll;
+    height: 100px;
+    width: 300px;
+    padding: 5px;
+    background-color: #eee;
+}
+
+#sample-div7 {
+    overflow-x: scroll;
+    height: 100px;
+    width: 300px;
+    padding: 5px;
+    background-color: #eee;
+}
